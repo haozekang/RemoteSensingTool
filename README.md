@@ -1,6 +1,10 @@
 # Remote Sensing Tool
 
-[TOC]
+> 朋友在读遥感专业的研究生，找我帮忙写几个小工具，就把几个工具在一起整合啦。
+
+- UI框架使用的是MahApps.Metro
+- 使用的是.Net4，和Microsoft.Bcl，支持XP
+- Office处理使用的是NPOI
 
 ## Excel To CSV
 
