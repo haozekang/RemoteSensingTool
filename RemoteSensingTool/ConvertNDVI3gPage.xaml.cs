@@ -359,7 +359,7 @@ namespace RemoteSensingTool
         private void btn_selectoutputpath_Click(object sender, RoutedEventArgs e)
         {
             FolderBrowserDialog dialog = new FolderBrowserDialog();
-            dialog.Description = "Select Output Directory";
+            dialog.Description = "请选择转换结果导出目录";
             if (dialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
                 App.ConvertNDVI3g_output_path = txt_outputpath.Text = dialog.SelectedPath;

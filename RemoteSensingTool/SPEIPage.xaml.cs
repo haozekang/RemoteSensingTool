@@ -192,7 +192,7 @@ namespace RemoteSensingTool
         private void btn_selectPATH_Click(object sender, RoutedEventArgs e)
         {
             System.Windows.Forms.FolderBrowserDialog dialog = new System.Windows.Forms.FolderBrowserDialog();
-            dialog.Description = "Select Output Directory";
+            dialog.Description = "请选择计算结果导出目录";
             if (dialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
                 App.SPEI_output_path = txt_outputdir.Text = dialog.SelectedPath;

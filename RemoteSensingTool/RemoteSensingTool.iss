@@ -27,7 +27,6 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 [Tasks]
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: checkablealone;
 [Files]
-;Source: "C:\Users\Administrator\Desktop\SchoolSystem\locales\*"; DestDir: "{app}\locales"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "C:\Users\Administrator\Documents\Visual Studio 2015\Projects\RemoteSensingTool\RemoteSensingTool\bin\Release\tools2.ico"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Users\Administrator\Documents\Visual Studio 2015\Projects\RemoteSensingTool\RemoteSensingTool\bin\Release\config.ini"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Users\Administrator\Documents\Visual Studio 2015\Projects\RemoteSensingTool\RemoteSensingTool\bin\Release\RemoteSensingTool.exe"; DestDir: "{app}"; Flags: ignoreversion
@@ -84,5 +83,3 @@ if curpage = wpFinished then
     SetUninstallIcon(ExpandConstant('{app}\icon.ico'));
   end;
 end;
-[Run]
-;Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: nowait postinstall skipifsilentinished then begin SetUninstallIcon(ExpandConstant('{app}\icon.ico')); end; end; [Run] ;Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: nowait postinstall skipifsilent
